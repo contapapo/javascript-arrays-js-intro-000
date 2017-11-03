@@ -10,7 +10,7 @@ function addElementToBeginningOfArray(array, element){
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element){
-   new_array = [element, ...array];
+   var const new_array = [element, ...array];
    return new_array;
 }
 
