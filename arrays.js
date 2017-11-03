@@ -10,8 +10,8 @@ function addElementToBeginningOfArray(array, element){
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element){
-   array2 = [element, ...array];
-   return array2;
+   new_array = [element, ...array];
+   return new_array;
 }
 
 // function addElementToEndOfArray(array,element){
